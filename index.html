@@ -1,1 +1,29 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>사회문화 오답률</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><h1>사회문화 모의고사 단원별 오답률</h1><div class="desc">칸 클릭: 빈칸 → ⚪️ 맞음 → ⚫️ 틀림 → 빈칸</div><div class="toolbar"><button class="primary" id="add">＋ 모의고사 추가</button><button id="backup">JSON 내보내기</button><button id="restore">JSON 복원하기</button><button id="reset">전체 데이터 초기화</button></div><div class="table-wrap"><table id="tbl"></table></div><div class="note">오답률 = 틀린 문제 ÷ (맞은 문제 + 틀린 문제) × 100. 빈칸은 제외됩니다.</div></div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>사회문화 오답률</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <h1>사회문화 모의고사 단원별 오답률</h1>
+  <div class="desc">칸 클릭: 빈칸 → ⚪️ 맞음 → ⚫️ 틀림 → 빈칸</div>
+
+  <div class="toolbar">
+    <button class="primary" id="add">＋ 모의고사 추가</button>
+    <button id="backup">JSON 내보내기</button>
+    <button id="restore">JSON 복원하기</button>
+    <button id="reset">전체 데이터 초기화</button>
+  </div>
+
+  <div class="table-wrap">
+    <table id="tbl"></table>
+  </div>
+
+  <div class="note">오답률 = 틀린 문제 ÷ (맞은 문제 + 틀린 문제) × 100. 빈칸은 제외됩니다.</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
